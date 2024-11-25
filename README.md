@@ -2,11 +2,10 @@
 Documentos y archivos para creación de proyecto final de tecnologías emergentes
 
 # Requisitos
-## Implementación de IA
-
-## Relevancia social
-
-## Innovación y creatividad
+* Implementación de IA
+* Capa extra de IA mediante la API de Open AI
+* Relevancia social
+* Innovación y creatividad
 
 # Miembros del Equipo
 * [José Pablo Hernández](https://github.com/JPHAJP)
