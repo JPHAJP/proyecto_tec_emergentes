@@ -14,6 +14,6 @@ El desarrollo del proyecto cumple con los siguientes criterios:
 # Miembros del Equipo
 Los siguientes integrantes colaboraron en el desarrollo de este proyecto:
 * [José Pablo Hernández](https://github.com/JPHAJP)
-* [Iñigo Quitana Delgadillo](https://github.com/Inigo1405)
 * [Alfredo Barranco](https://github.com/AlfredoB14)
+* [Iñigo Quitana Delgadillo](https://github.com/Inigo1405)
 * [Naomi Díaz](https://github.com/NaomiDH03)
