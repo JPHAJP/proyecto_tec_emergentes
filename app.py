@@ -140,13 +140,24 @@ def show_prompt(desc1, desc2, desc3):
     global emotion_prediction
     if not all([desc1, desc2, desc3]) or not emotion_prediction:
         return "Por favor, asegúrate de tener descripciones y una predicción de emoción antes de mostrar el prompt."
-    prompt = f"""Escribe un poema corto de 4 líneas que conecte estas tres imágenes con la emocion de manera creativa:
-    Imagen 1: {desc1}
-    Imagen 2: {desc2}
-    Imagen 3: {desc3}
-    Emocion: {emotion_prediction}
     
-    El poema debe ser en español, rimado y coherente, usando elementos de las descripciones y la emocion."""
+    prompt = f"""
+    Escribe un poema inspirado en las siguientes tres descripciones visuales y la emoción predominante indicada:
+    
+    1. Imagen 1: {desc1}
+    2. Imagen 2: {desc2}
+    3. Imagen 3: {desc3}
+    
+    Emoción central: {emotion_prediction}
+    
+    Indicaciones adicionales:
+    - El poema debe ser en español.
+    - El poema debe ser evocador y lírico, utilizando un lenguaje sensorial y metafórico.
+    - Las tres imágenes deben entrelazarse de manera simbólica para expresar la emoción central, creando una narrativa fluida.
+    - Mantén un tono introspectivo y reflexivo, explorando cómo las imágenes representan la emoción a nivel emocional y visual.
+    - Intenta conectar los elementos de las imágenes de manera que se complementen y reflejen la emoción de forma profunda y genuina.
+    """
+
     return prompt
 
 # Función para resetear los cuadros de texto
