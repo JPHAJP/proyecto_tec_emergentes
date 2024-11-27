@@ -212,4 +212,4 @@ with gr.Blocks() as demo:
             outputs=[prompt_box]
         )
 
-    demo.launch()
+    demo.launch(share=True)
